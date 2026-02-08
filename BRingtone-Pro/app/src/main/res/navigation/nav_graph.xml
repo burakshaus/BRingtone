@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ringtoneLibraryFragment">
+
+    <fragment
+        android:id="@+id/ringtoneLibraryFragment"
+        android:name="com.burak.bringtonepro.ui.library.RingtoneLibraryFragment"
+        android:label="@string/library_title"
+        tools:layout="@layout/fragment_ringtone_library">
+        <action
+            android:id="@+id/action_library_to_editor"
+            app:destination="@id/audioEditorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/audioEditorFragment"
+        android:name="com.burak.bringtonepro.ui.editor.AudioEditorFragment"
+        android:label="@string/editor_title"
+        tools:layout="@layout/fragment_audio_editor">
+        <argument
+            android:name="audioUri"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/contactAssignmentFragment"
+        android:name="com.burak.bringtonepro.ui.contacts.ContactAssignmentFragment"
+        android:label="@string/contacts_title"
+        tools:layout="@layout/fragment_contact_assignment" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.burak.bringtonepro.ui.settings.SettingsFragment"
+        android:label="@string/settings_title"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

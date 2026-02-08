@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">BRingtone</string>
+    
+    <!-- Main Activity -->
+    <string name="select_audio_file">Select Audio File</string>
+    <string name="no_audio_selected">No audio file selected</string>
+    <string name="permission_required">Storage permission is required to access audio files</string>
+    <string name="grant_permission">Grant Permission</string>
+    
+    <!-- Audio Player Activity -->
+    <string name="audio_player">Audio Player</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="set_as_ringtone">Set as Ringtone</string>
+    <string name="trim_audio">Trim Audio</string>
+    <string name="duration_format">%1$s / %2$s</string>
+    <string name="ringtone_set_success">Ringtone set successfully!</string>
+    <string name="ringtone_set_failed">Failed to set ringtone</string>
+    <string name="permission_write_settings">Permission required to set ringtone</string>
+    
+    <!-- Audio Trimmer Activity -->
+    <string name="audio_trimmer">Audio Trimmer</string>
+    <string name="trim_start">Start</string>
+    <string name="trim_end">End</string>
+    <string name="preview">Preview</string>
+    <string name="save_trimmed">Save Trimmed Audio</string>
+    <string name="trimmed_audio_saved">Trimmed audio saved successfully!</string>
+    <string name="trim_save_failed">Failed to save trimmed audio</string>
+    <string name="set_trimmed_as_ringtone">Set as Ringtone</string>
+    
+    <!-- Common -->
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">BRingtone Pro</string>
+    
+    <!-- Navigation -->
+    <string name="nav_library">Library</string>
+    <string name="nav_editor">Editor</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Library Screen -->
+    <string name="library_title">Ringtone Library</string>
+    <string name="search_ringtones">Search ringtones...</string>
+    <string name="add_ringtone">Add Ringtone</string>
+    <string name="category_all">All</string>
+    <string name="category_custom">Custom</string>
+    <string name="category_system">System</string>
+    <string name="no_ringtones">No ringtones yet</string>
+    <string name="no_ringtones_desc">Tap + to add your first ringtone</string>
+    
+    <!-- Audio Editor -->
+    <string name="editor_title">Audio Editor</string>
+    <string name="waveform">Waveform</string>
+    <string name="effects">Effects</string>
+    <string name="fade_in">Fade In</string>
+    <string name="fade_out">Fade Out</string>
+    <string name="normalize">Normalize Volume</string>
+    <string name="pitch">Pitch Adjustment</string>
+    <string name="trim">Trim</string>
+    <string name="preview">Preview</string>
+    <string name="save">Save</string>
+    <string name="apply_effects">Apply Effects</string>
+    
+    <!-- Contact Assignment -->
+    <string name="contacts_title">Assign to Contact</string>
+    <string name="search_contacts">Search contacts...</string>
+    <string name="assign_ringtone">Assign Ringtone</string>
+    <string name="no_contacts">No contacts found</string>
+    <string name="permission_contacts">Contacts permission required</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="default_ringtone">Default Ringtone</string>
+    <string name="storage">Storage</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="about">About</string>
+    
+    <!-- Common -->
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="export">Export</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- Messages -->
+    <string name="ringtone_added">Ringtone added successfully</string>
+    <string name="ringtone_deleted">Ringtone deleted</string>
+    <string name="ringtone_set">Ringtone set successfully</string>
+    <string name="error_loading_audio">Error loading audio file</string>
+    <string name="error_saving">Error saving file</string>
+    <string name="permission_required">Permission required</string>
+    <string name="grant_permission">Grant Permission</string>
+    
+    <!-- Duration format -->
+    <string name="duration_format">%1$s / %2$s</string>
+    <string name="file_size">Size: %s</string>
+</resources>
